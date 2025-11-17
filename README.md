@@ -19,7 +19,7 @@ cd cse492-public/week13
 ```
 Afterwards, run the executable with `java -jar`:
 ```sh
-java -jar UserNameValidator21.jar # run the executable
+java -jar UserNameValidator21.jar
 ```
 (you can also use `UserNameValidator17.jar` if you use Java 17)
 
