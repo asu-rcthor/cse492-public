@@ -23,6 +23,6 @@ java -jar UserNameValidator21.jar
 ```
 (you can also use `UserNameValidator17.jar` if you use Java 17)
 
-**Because this is a console application, you will not be able to click on your file explorer directly. You will need to launch this via a terminal such as Powershell on Windows, Zsh on Mac, or bash on Linux. (I may add a Python helper (don't count on it), but you should familarise yourself with using a terminal as it is very likely you may need to use a terminal in the future.)**
+**Because this is a console application, you will not be able to click on your file explorer directly. You will need to launch this via a terminal such as Powershell on Windows, Zsh (search up "Terminal") on Mac, or bash on Linux. (I may add a Python helper (don't count on it), but you should familarise yourself with using a terminal as it is very likely you may need to use a terminal in the future.)**
 
 Alternatively, you may run the jar file on pwn.college (join link is [here](https://pwn.college/dojo/asu-rcthor-thesis~b16ee020/join/) with a challenge specially prepared).
