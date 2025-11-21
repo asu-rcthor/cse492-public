@@ -26,7 +26,7 @@ ls -al cse492-public/week14
 # Otherwise, if you only needed to git pull, run this:
 ls -al week14/
 ```
-You should be able to see the folder `drivinglicense` (which contains an Eclipse project).
+You should be able to see the folder `drivinglicense` (which contains an Eclipse project). Import this project on Eclipse. (Hint: If you need to see your current directory, use `pwd` then copy that over to Eclipse!)
 
 There are three classes: Main, ArizonaDMV, and ArizonaDMVTest. The Main class contains nothing; focus solely on testing the method in ArizonaDMV.
 
