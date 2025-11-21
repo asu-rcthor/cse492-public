@@ -32,5 +32,6 @@ There are three classes: Main, ArizonaDMV, and ArizonaDMVTest. The Main class co
 
 ### IDE problems?
 As we go, if we uncover common IDE problems and fixes, I will put them there. For now, coming SoonTM.
+* I was able to clone this repository on a Mac in BYENG 214. (I could not test on a Windows computer, as those use JRE 25, and it appears that JUnit 5 may not be compatible.)
 
 If it is taking too long to resolve your IDE issue, please join someone who has their IDE working.
