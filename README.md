@@ -1,28 +1,36 @@
 # In-class activities for CSE 360
-## Week 13: Black-Box Testing
-An implementation of the Username Validator is given as a compiled executable.
-1. Work with your team and determine a strategy to test this program. **This is a black-box test, so no source code is provided!** Use the FSM for the Username Validator from Individual Homework 1 to develop your tests.
-2. Execute the program and take note of:
-	* What are your test cases? Ensure that the test cases that you have selected are **thorough**.
-	* What is the rationale for your test cases? (For example, is there a requirement you are trying to test?)
-	* Do the test cases pass or fail? **Should** the test pass or fail?
-3. All members of your team should submit the same set of test cases. **Work with your team; divide and conquer.**
+## Week 14: White-Box Testing
+Rather than looking at the lengthy Password Validator, we will look at a different program that checks driving license eligibility in Arizona.
+1. Work with your peers to develop a strategy to test this module. How many test cases are necessary?
+2. Write JUnit tests to execute your strategy. Do each of your tests pass or fail? Should they pass or fail?
+3. How much of the code do your test cases cover?
+4. *Optional, time permitting - food for thought:* If this module works correctly, is it best practice to keep the code as-is? Or should it be refactored? (How easy or difficult was it for your team to develop test cases?)
+5. All members of your team should submit the same set of test cases. **Work with your peers; divide and conquer.**
 
-### Other specifications
-To execute these, clone the repository (either on Powershell, Zsh, Bash, etc.):
+### Technical specifications
+Step 1: If you did not clone the repository last week (or are using a different computer), please clone the repository:
 ```sh
 git clone https://github.com/asu-rcthor/cse492-public.git
 ```
-Then, enter the directory with the test executables:
+If you cloned the repository last week, update your files for this week:
 ```sh
-cd cse492-public/week13
+cd path_to_directory/cse492-public
+git pull
 ```
-Afterwards, run the executable with `java -jar`:
+
+Step 2: Verify that you can find this week's contents:
 ```sh
-java -jar UserNameValidator21.jar
+# If you have just cloned the repository, run this:
+ls -al cse492-public/week14
+
+# Otherwise, if you only needed to git pull, run this:
+ls -al week14/
 ```
-(you can also use `UserNameValidator17.jar` if you use Java 17)
+You should be able to see the folder `drivinglicense` (which contains an Eclipse project).
 
-**Because this is a console application, you will not be able to click on your file explorer directly. You will need to launch this via a terminal such as Powershell on Windows, Zsh (search up "Terminal") on Mac, or bash on Linux. (I may add a Python helper (don't count on it), but you should familarise yourself with using a terminal as it is very likely you may need to use a terminal in the future.)**
+There are three classes: Main, ArizonaDMV, and ArizonaDMVTest. The Main class contains nothing; focus solely on testing the method in ArizonaDMV.
 
-Alternatively, you may run the jar file on pwn.college (join link is [here](https://pwn.college/dojo/asu-rcthor-thesis~b16ee020/join/) with a challenge specially prepared).
+### IDE problems?
+As we go, if we uncover common IDE problems and fixes, I will put them there. For now, coming SoonTM.
+
+If it is taking too long to resolve your IDE issue, please join someone who has their IDE working.
