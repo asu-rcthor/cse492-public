@@ -32,7 +32,7 @@ There are three classes: Main, ArizonaDMV, and ArizonaDMVTest. The Main class co
 
 #### Step 3: Setup this project in Eclipse:
 
-In Eclipse, select the `drivinglicense` folder when importing this project from the filesystem. (Specifically, `cse492-public/week14/drivinglicense`.) Once complete, develop a strategy and write test cases with your peers. A sample test case has already been provided for you.
+In Eclipse, select the `drivinglicense` folder when importing this project from the filesystem. The project will likely not import properly if you select a different folder, such as `cse492` or `week14` Once complete, develop a strategy and write test cases with your peers. A sample test case has already been provided for you.
 
 As you write test cases, you may find the java.time.LocalDate class to be useful. Here is a quick link for the documentation: <https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html>
 
